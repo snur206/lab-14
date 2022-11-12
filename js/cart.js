@@ -23,6 +23,11 @@ function clearCart() {}
 
 // TODO: Fill in the <tr>'s under the <tbody> for each item in the cart
 function showCart() {
+  let returnCart = localStorage.getItem('cart');
+  let cartElem = document.createElement('items');
+  cartElem.textContent = cart.items, cart.quantity
+
+  cartTable.appendChild(cartElem);
 
   // TODO: Find the table body
 
