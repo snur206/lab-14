@@ -37,7 +37,7 @@ event.preventDefault();
 
 }
 
-// TODO: Add the selected item and quantity to the cart
+// TODONE: Add the selected item and quantity to the cart
 function addSelectedItemToCart(item, quantity) {
   // TODONE: suss out the item picked from the select list
   // TODONE: get the quantity
